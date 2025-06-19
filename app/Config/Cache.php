@@ -36,6 +36,18 @@ class Cache extends BaseConfig
 
     /**
      * --------------------------------------------------------------------------
+     * Cache Directory Path
+     * --------------------------------------------------------------------------
+     *
+     * The path to where cache files should be stored, if using a file-based
+     * system.
+     *
+     * @deprecated Use the driver-specific variant under $file
+     */
+    public string $storePath = WRITEPATH . 'cache/';
+
+    /**
+     * --------------------------------------------------------------------------
      * Key Prefix
      * --------------------------------------------------------------------------
      *
