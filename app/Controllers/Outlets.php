@@ -104,9 +104,8 @@ class Outlets extends BaseController
             ],
             'image' => [
                 'label'     => 'Foto Tempat',
-                'rules'     => 'required|string',
+                'rules'     => 'string',
                 'errors'    => [
-                    'required'  => '{field} wajib diisi.',
                     'string'    => '{field} harus berupa nama file.'
                 ]
             ],
@@ -139,7 +138,7 @@ class Outlets extends BaseController
             'address'           => $input['address'],
             'phone'             => $input['phone'],
             'operational_hours' => $input['operational_hours'],
-            'image'             => $input['image'],
+            'image'             => !empty($input['image']) ? $input['image'] : null,
             'maps'              => $input['maps'],
             'category'          => $input['category'],
         ];
@@ -201,9 +200,8 @@ class Outlets extends BaseController
             ],
             'image' => [
                 'label'     => 'Foto Tempat',
-                'rules'     => 'required|string',
+                'rules'     => 'string',
                 'errors'    => [
-                    'required'  => '{field} wajib diisi.',
                     'string'    => '{field} harus berupa nama file.'
                 ]
             ],
@@ -231,7 +229,7 @@ class Outlets extends BaseController
         }
 
         // Remove Image
-        if ($outlet['image'] !== $input['image']) {
+        if (($outlet['image'] != null) && ($outlet['image'] !== $input['image'])) {
             @unlink('images/outlet/'.$outlet['image']);
         }
 

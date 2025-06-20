@@ -256,7 +256,7 @@
                                 </span>
                             </div>
 
-                            <div class="uk-text-small uk-margin-small-top uk-text-meta" style="font-style: italic;"><?= esc($product['description']) ?></div>
+                            <div class="uk-text-small uk-margin-small-top uk-text-meta uk-text-truncate" style="font-style: italic;"><?= esc($product['description']) ?></div>
                         </div>
 
                         <div class="uk-card-footer">

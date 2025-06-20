@@ -110,7 +110,7 @@
                                     <span>Maks 2MB || Ratio 1:1 (Square)</span>
                                 </div>
                                 <progress id="new-progressbar" class="uk-progress" value="0" max="100" hidden></progress>
-                                <input id="image" name="image" required hidden />
+                                <input id="image" name="image" hidden />
                                 <div id="image-container" class="uk-height-small uk-flex uk-flex-middle uk-flex-center"></div>
 
                                 <script>
@@ -302,7 +302,7 @@
                                                     <span>Maks 2MB || Ration 1:1 (Square)</span>
                                                 </div>
                                                 <progress id="edit-progressbar-<?= esc($outlet['id']) ?>" class="uk-progress" value="0" max="100" hidden></progress>
-                                                <input id="image-<?= esc($outlet['id']) ?>" name="image" value="<?=$outlet['image']?>" hidden required />
+                                                <input id="image-<?= esc($outlet['id']) ?>" name="image" value="<?=$outlet['image']?>" hidden />
                                                 <div id="image-container-<?= esc($outlet['id']) ?>" class="uk-height-small uk-flex uk-flex-middle uk-flex-center">
                                                     <img src="/images/outlet/<?=$outlet['image']?>" style="max-height:100%; max-width:100%;" />
                                                 </div>
