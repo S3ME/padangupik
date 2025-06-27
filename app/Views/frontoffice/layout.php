@@ -164,9 +164,9 @@
                     <div class="uk-width-1-1 uk-width-1-3@m">
                         <h3 class="uk-h5 uk-text-left@m uk-text-center">Kontak</h3>
                         <ul class="uk-list uk-text-left@m uk-text-center">
-                            <li><a class="el-link uk-link-muted uk-margin-remove-last-child" href="tel:02742850755" target="_blank"><i uk-icon="receiver"></i> 0274-xxxxx</a></li>
-                            <li><a class="el-link uk-link-muted uk-margin-remove-last-child" href="https://wa.me/08112500777" target="_blank"><i uk-icon="whatsapp"></i> 081xxxxx</a></a></li>
-                            <li><a class="el-link uk-link-muted uk-margin-remove-last-child" href="mailto:example@gmail.com" target="_blank"><i uk-icon="mail"></i> example@gmail.com</a></a></li>
+                            <!--<li><a class="el-link uk-link-muted uk-margin-remove-last-child" href="tel:02742850755" target="_blank"><i uk-icon="receiver"></i> 0274-xxxxx</a></li>-->
+                            <li><a class="el-link uk-link-muted uk-margin-remove-last-child" href="https://wa.me/+628115479292" target="_blank"><i uk-icon="whatsapp"></i> 08115479292</a></li>
+                            <li><a class="el-link uk-link-muted uk-margin-remove-last-child uk-text-small" href="mailto:warungpadangupikmarekting@gmail.com" target="_blank"><i uk-icon="mail"></i> warungpadangupikmarekting@gmail.com</a></li>
                             <li><a class="el-link uk-link-muted uk-margin-remove-last-child" href="https://www.facebook.com/Warungpadangupik/?_rdc=1&_rdr#" target="_blank"><i uk-icon="facebook"></i> Warung Padang UPIK </a></li>
                             <li><a class="el-link uk-link-muted uk-margin-remove-last-child" href="https://www.instagram.com/padangupik_id" target="_blank"><i uk-icon="instagram"></i> padangupik_id</a></li>
                         </ul>
@@ -204,10 +204,10 @@
                 <a id="totop-btn" href="#" class="uk-button-primary uk-icon-button" uk-icon="chevron-up" uk-scroll style="display:none;"></a>
             </div>
             <div class="uk-panel uk-text-right">
-                <a class="uk-button uk-button-primary uk-visible@m" href="https://wa.me/+6281xxxxxx" target="_blank" style="border-radius: 50px; padding: 10px 20px;">
+                <a class="uk-button uk-button-primary uk-visible@m" href="https://wa.me/+628115479292" target="_blank" style="border-radius: 50px; padding: 10px 20px;">
                     <i uk-icon="whatsapp"></i> Butuh Bantuan?
                 </a>
-                <a class="uk-icon-button uk-hidden@m uk-button-primary" href="https://wa.me/+6281xxxxxx" target="_blank" uk-icon="whatsapp"></a>
+                <a class="uk-icon-button uk-hidden@m uk-button-primary" href="https://wa.me/+628115479292" target="_blank" uk-icon="whatsapp"></a>
             </div>
         </div>
     </div>

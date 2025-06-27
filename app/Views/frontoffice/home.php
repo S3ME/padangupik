@@ -2,9 +2,14 @@
 
 <?= $this->section('main') ?>
 <!-- Slideshow -->
-<div class="uk-section-default uk-section uk-padding-remove-bottom">
+<?php if ($ismobile == true) {
+    $padding = 'padding-top: 0px;';
+} else {
+    $padding = 'padding-top: 100px;';
+} ?>
+<div class="uk-section-default uk-section uk-padding-remove-bottom" style="<?=$padding?>">
     <div class="uk-container uk-container-expand uk-padding-remove-horizontal">
-        <div uk-slideshow="ratio: 3:1; animation: push">
+        <div uk-slideshow="ratio: 3:1; animation: push; autoplay: true; autoplay-interval: 3000">
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
                 <div class="uk-slideshow-items">
                     <?php
