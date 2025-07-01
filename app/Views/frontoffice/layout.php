@@ -190,7 +190,7 @@
                         if(intval($year) > date('Y')){ echo date('Y'); }
                     }
                     ?>
-                    &copy copyright <?php auto_copyright("2025"); ?>. Warung Padang Upik
+                    &copy copyright <?php auto_copyright("2025"); ?>. PT Selera Nusantara Abadi
                 </div>
             </div>
         </div>

@@ -139,7 +139,7 @@
                             if(intval($year) > date('Y')){ echo date('Y'); }
                         }
                         ?>
-                        &copy copyright <?php auto_copyright("2025"); ?>. <span style="color: #fff;">Warung Padang Upik.</span> All rights reserved.
+                        &copy copyright <?php auto_copyright("2025"); ?>. <span style="color: #fff;">PT Selera Nusantara Abadi.</span> All rights reserved.
                     </div>
                     <div class="uk-text-meta uk-text-center uk-text-right@m">Developed by <a href="" target="_blank">Dismas Banar Purnandi</a></div>
                 </div>
