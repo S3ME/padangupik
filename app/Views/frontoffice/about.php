@@ -14,7 +14,7 @@
 </div>
 
 <div class="uk-section uk-section-default uk-padding-remove-top">
-    <div class="uk-container uk-container-xlarge uk-padding-remove-horizontal">
+    <div class="uk-container uk-container-xlarge">
         <div class="uk-child-width-1-1" uk-grid>
             <div uk-scrollspy="target: > h1; cls: uk-animation-slide-bottom; delay: 300; repeat: false;">
                 <h1 class="uk-text-heading uk-text-primary uk-text-center">Tentang Kami</h1>
@@ -26,18 +26,18 @@
             </div>
         </div>
         <div class="uk-flex uk-flex-middle" uk-grid>
-            <div class="uk-width-1-3 uk-text-right@m" uk-scrollspy="target: > img; cls: uk-animation-slide-right; delay: 300; repeat: false;">
+            <div class="uk-width-1-1 uk-width-1-3@m uk-text-right@m" uk-scrollspy="target: > img; cls: uk-animation-slide-right; delay: 300; repeat: false;">
                 <img src="<?= base_url('images/outlet/sc-hero-2.png') ?>" alt="Outlet Warung Padang UPIK" class="uk-width-1-1 uk-height-auto uk-border-rounded uk-box-shadow-small" style="max-width: 100%; height: auto;">
             </div>
-            <div class="uk-width-2-3" uk-scrollspy="target: > p; cls: uk-animation-slide-right; delay: 500; repeat: false;">
-                <p class="uk-text-justify uk-dropcap">Meneladani kegigihan kedua orang tua dan bekal pendidikan yang dimiliki, maka pada tahun 2008, kedua putri Bapak Syahril membagi peran dalam mengembangkan Warung Padang UPIK hingga berhasil memperluas cabangnya di Balikpapan. Duet Kerjasama putri pertama dan bungsu putri Bapak Syahril pun berhasil mewujudkan UPIK menjadi 5 cabang di Samarinda dan  5 cabang di Balikpapan. Sedangkan putri ke dua, fokus pada keluarga dan agama. Tidak hanya berhenti sampai disitu. Berbekal semangat tinggi dalam belajar hal hal baru, usaha berbasis keluarga pun mulai ditransformasikan menjadi usaha berbasis sistem manajemen oleh ‘duo’ wanita ini . Mereka juga membangun struktur manajemen dengan merekrut orang-orang profesional dan mulai menata lini standarisasi produksi masakan dengan mendidik koki-koki baru. Sistem manajemen progresif menjadikan Warung Padang UPIK terus bertumbuh baik secara internal manajemen maupun pelayanan kepada konsumennya menjadi lebih baik. Hal ini terus dilakukan hingga saat ini.</p>
+            <div class="uk-width-1-1 uk-width-2-3@m" uk-scrollspy="target: > p; cls: uk-animation-slide-right; delay: 500; repeat: false;">
+                <p class="uk-text-justify uk-dropcap">Meneladani kegigihan kedua orang tua dan bekal pendidikan yang dimiliki, maka pada tahun 2008, kedua putri Bapak Syafril membagi peran dalam mengembangkan Warung Padang UPIK hingga berhasil memperluas cabangnya di Balikpapan. Duet Kerjasama putri pertama dan bungsu putri Bapak Syafril pun berhasil mewujudkan UPIK menjadi 5 cabang di Samarinda dan  5 cabang di Balikpapan. Sedangkan putri ke dua, fokus pada keluarga dan agama. Tidak hanya berhenti sampai disitu. Berbekal semangat tinggi dalam belajar hal hal baru, usaha berbasis keluarga pun mulai ditransformasikan menjadi usaha berbasis sistem manajemen oleh ‘duo’ wanita ini . Mereka juga membangun struktur manajemen dengan merekrut orang-orang profesional dan mulai menata lini standarisasi produksi masakan dengan mendidik koki-koki baru. Sistem manajemen progresif menjadikan Warung Padang UPIK terus bertumbuh baik secara internal manajemen maupun pelayanan kepada konsumennya menjadi lebih baik. Hal ini terus dilakukan hingga saat ini.</p>
             </div>
         </div>
         <div class="uk-flex uk-flex-middle" uk-grid>
-            <div class="uk-width-2-3" uk-scrollspy="target: > p; cls: uk-animation-slide-left; delay: 500; repeat: false;">
+            <div class="uk-width-1-1 uk-width-2-3@m uk-flex-last uk-flex-first@m" uk-scrollspy="target: > p; cls: uk-animation-slide-left; delay: 500; repeat: false;">
                 <p class="uk-text-justify uk-dropcap">Dengan berkembangnya manajemen UPIK di Kalimantan Timur, akhirnya di tahun 2019 membawa UPIK berani memperluas cabang nya dan memilih Jogja sebagai kota pertama UPIK hadir di pulau Jawa.  Tepatnya di bulan November tahun 2019, Warung Padang UPIK melahirkan 2 cabang termudanya. Masa pandemi covid-19 seluruh dunia di awal tahun 2020 merupakan ujian besar bagi manajemen UPIK. Tidak hanya di Jogja, namun juga di Kalimantan Timur. Namun, berkat doa, kegigihan dan kemauan kuat untuk terus belajar, UPIK dapat melewati masa berat pandemi Covid-19 dengan penuh pelajaran yang didapatkan, meskipun harus merampingkan diri kehilangan 2 cabang outletnya dengan tidak melakukan PHK karyawan. Hingga kini, Warung Padang UPIK hadir dengan 9 cabang. 4 cabang di Balikpapan, 4 cabang di Samarinda dan 1 cabang di Yogyakarta. Tidak hanya berhenti disini, berbekal 20 tahun pengalaman di bidang kuliner masakan Padang, Warung Padang UPIK masih akan terus mengembangkan diri  untuk memberikan pelayanan masakan terbaik kepada konsumen di seluruh Indonesia.</p>
             </div>
-            <div class="uk-width-1-3" uk-scrollspy="target: > img; cls: uk-animation-slide-left; delay: 300; repeat: false;">
+            <div class="uk-width-1-1 uk-width-1-3@m uk-flex-first uk-flex-last@m" uk-scrollspy="target: > img; cls: uk-animation-slide-left; delay: 300; repeat: false;">
                 <img src="<?= base_url('images/menu/1.jpg') ?>" alt="Outlet Warung Padang UPIK" class="uk-width-1-1 uk-height-auto uk-border-rounded uk-box-shadow-small" style="max-width: 100%; height: auto;">
             </div>
         </div>

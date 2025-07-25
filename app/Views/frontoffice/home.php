@@ -88,7 +88,7 @@
             <div>
                 <h2 class="uk-text-bolder" style="color: #e92629 !important;">Sekilas</br>Tentang Kami</h2>
                 <p class="uk-text-lead uk-text-justify" style="color: #fff;">Warung Padang UPIK hadir dengan 9 cabang. 4 cabang di Balikpapan, 4 cabang di Samarinda dan 1 cabang di Yogyakarta. Tidak hanya berhenti disini, berbekal 20 tahun pengalaman di bidang kuliner masakan Padang, Warung Padang UPIK masih akan terus mengembangkan diri  untuk memberikan pelayanan masakan terbaik kepada konsumen di seluruh Indonesia.</p>
-                <a href="outlet" class="uk-button uk-button-primary uk-border-rounded uk-margin-top">Selengkapnya <i uk-icon="chevron-right"></i></a>
+                <a href="about" class="uk-button uk-button-primary uk-border-rounded uk-margin-top">Selengkapnya <i uk-icon="chevron-right"></i></a>
             </div>
             <div class="uk-flex-first uk-flex-last@m">
                 <img src="images/outlet/sc-hero-2.png" alt="Warung Padang UPIK" class="uk-box-shadow-medium" style="width: 100%; height: auto; border-radius: 25px;">
